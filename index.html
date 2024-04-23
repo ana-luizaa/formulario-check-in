@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Inscrição</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulário de Inscrição</h1>
+    <form id="registration-form">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Realizar Inscrição</button>
+    </form>
+    <div id="participants-list">
+      <h2>Lista de Participantes</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Data de Inscrição</th>
+            <th>Data e Hora de Check-in</th>
+            <th>Check-in</th>
+          </tr>
+        </thead>
+        <tbody id="participants">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
