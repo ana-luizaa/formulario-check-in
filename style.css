@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #C46B96;
+    background-color: #ffffff;
   }
   
   .container {
@@ -18,7 +18,7 @@ body {
   
   h1, h2 {
     text-align: center;
-    color: #871C4F;
+    color: #006494;
   }
   
   form {
@@ -41,29 +41,31 @@ body {
   }
   
   button {
-    background-color: #871C4F;
+    background-color: #006494;
     color: #ffffff;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #871C4F;
+    background-color: #006494;
   }
   
   table {
     width: 100%;
     border-collapse: collapse;
   }
-  
+
   th, td {
     border: 1px solid #000000;
     padding: 8px;
     text-align: left;
+    font-family: 'Abel', sans-serif;
   }
   
   th {
-    background-color: #871C4F;
+    background-color: #006494;
     color: #fff;
+  
   }
   @media (max-width:930px) {
     .img-box{
